@@ -1,0 +1,13 @@
+Source: nodejs-spark
+Section: misc
+Priority: extra
+Uploaders: Wade Simmons <wade@simplegeo.com>
+Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
+build-Depends: cdbs, debhelper (>= 7)
+Standards-Version: 3.9.1
+
+Package: nodejs-spark
+Depends: nodejs (>= 0.1.100), ${misc:Depends}
+Architecture: all
+Description: node-spark
+ http://github.com/senchalabs/spark
